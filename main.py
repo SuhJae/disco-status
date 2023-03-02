@@ -1,9 +1,15 @@
 import nextcord
 import psutil
+import configparser
 import time
 from nextcord import Interaction
 
 client = nextcord.Client()
+
+config = configparser.ConfigParser()
+config.read('config.ini')
+
+token = config['CREDENTIAL']['token']
 
 # Set your server ID and channel ID here
 SERVER_ID = 1023440388352114749
@@ -72,4 +78,4 @@ async def htop(interaction: Interaction):
     await interaction.followup.send(embed=embed)
 
 # Set your Discord bot token here
-client.run("Your Token")
+client.run(token)
