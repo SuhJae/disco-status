@@ -1,7 +1,6 @@
 import nextcord
 import psutil
 import time
-from nextcord.ext import commands
 from nextcord import Interaction
 
 client = nextcord.Client()
@@ -73,4 +72,4 @@ async def htop(interaction: Interaction):
     await interaction.followup.send(embed=embed)
 
 # Set your Discord bot token here
-client.run("OTc5ODI4NzY1Nzc5NzE4MjA0.G61JjD.UwtW41TW-qz0-6xZuJbNiYUK6iniqNzlUDM56E")
+client.run("Your Token")
