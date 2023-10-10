@@ -1,3 +1,6 @@
+📜 Archived Repository
+As my coding interests have evolved, I've chosen to archive this repository to reflect past work.
+
 # **Disco-status**
 
 Disco-status is a simple Discord bot that tracks your computer's resource usage in real-time. With Disco-status, you can easily keep an eye on your system's CPU, RAM, disk, and swap usage, and monitor your computer's performance without leaving your Discord server.
